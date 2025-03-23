@@ -1,5 +1,5 @@
 n=int(input())
-a,b=list(input().strip()),input().strip()
+a,b=list(input().strip()),list(input().strip())
 if sorted(a)!=sorted(b):
     print(-1)
     exit()
