@@ -2,6 +2,7 @@ n=int(input())
 a,b=list(input().strip()),list(input().strip())
 if sorted(a)!=sorted(b):
     print(-1)
+    exit()
 s=0
 for i in range(n):
     if a[i]!=b[i]:
